@@ -1,0 +1,18 @@
+# ============================================================
+# requirements.txt
+# ============================================================
+# Install everything at once by running in the VSCode terminal:
+#
+#   pip install -r requirements.txt
+#
+# ============================================================
+
+kagglehub==0.3.4        # Downloads Kaggle datasets with one line of code
+streamlit==1.35.0       # Turns Python into a web app (for app.py)
+scikit-learn==1.5.0     # Machine learning — Random Forest is in here
+pandas==2.2.2           # Data tables (DataFrames)
+numpy==1.26.4           # Numbers and arrays
+matplotlib==3.9.0       # Drawing charts
+seaborn==0.13.2         # Prettier charts (built on matplotlib)
+python-dotenv==1.1.1    # Loads Kaggle credentials from .env
+joblib==1.5.1           # Saves and loads the trained model file
